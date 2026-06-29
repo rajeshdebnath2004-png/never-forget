@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Wishes For You!</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            /* Background photo (Apni chaile nicher URL bodle onno chobir link o dite paren) */
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                        url('https://images.unsplash.com/photo-1518199266791-5375a83190b7?q=80&w=1000&auto=format&fit=crop') no-repeat center center/cover;
+            font-family: 'Arial', sans-serif;
+            padding: 20px;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 35px 25px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+            max-width: 420px;
+            width: 100%;
+            text-align: center;
+            backdrop-filter: blur(5px);
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #e74c3c;
+            font-size: 20px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        p {
+            font-size: 16px;
+            color: #34495e;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            background: #fdfefe;
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 4px solid #e74c3c;
+        }
+        /* Music Player Styling */
+        audio {
+            width: 100%;
+            border-radius: 30px;
+            background: #f1f3f4;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>✨ Special Message ✨</h1>
+        <h2>Best wishes for your future!</h2>
+        
+        <p>Ekhane apnar moner moto ja khushi shundor kore likhe din. Apni ja massage likhte chan, sheti ekhane ashbe.</p>
+        
+        <audio controls>
+            <source src="music.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+</body>
+</html>
