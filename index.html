@@ -1,10 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="bn">
 <head>
-<title>Never Forget</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>আপনার জন্য একটি সারপ্রাইজ!</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+        h1 { color: #ff4757; margin-bottom: 20px; }
+        p { font-size: 18px; color: #333; line-height: 1.6; margin-bottom: 25px; }
+        
+        /* অডিও প্লেয়ারের সুন্দর ডিজাইন */
+        audio {
+            width: 100%;
+            margin-top: 10px;
+            border-radius: 30px;
+            background: #f1f3f4;
+        }
+    </style>
 </head>
-<body style="font-family:Arial;text-align:center;padding:40px;">
-<h1>❤️ Never Forget ❤️</h1>
-<p>This page is under construction.</p>
+<body>
+
+    <div class="card">
+        <h1>❤️ বিশেষ বার্তা ❤️</h1>
+        <!-- নিচে আপনার নিজের মেসেজটি লিখুন -->
+        <p>এখানে আপনার মনের মতো সুন্দর একটি মেসেজ বা নোট লিখে দিন। আপনি যা খুশি লিখতে পারেন!</p>
+        
+        <!-- অডিও প্লেয়ার (কন্ট্রোলসহ) -->
+        <audio controls autoplay>
+            <source src="music.mp3" type="audio/mpeg">
+            আপনার ব্রাউজারটি অডিও সাপোর্ট করছে না।
+        </audio>
+    </div>
+
 </body>
 </html>
